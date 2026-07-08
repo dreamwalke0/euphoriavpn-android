@@ -6,15 +6,11 @@
 
 </div>
 
----
-
 ## Скачать
 
 | Android |
 |:--------|
 | [Download APK](https://github.com/dreamwalke0/euphoriavpn-android/releases/download/Beta/Euphoria.VPN.1.0.1.apk) |
-
----
 
 ## Возможности
 
@@ -30,13 +26,9 @@
 - Split Tunnel
 - Настройка DNS
 
----
-
 ## Протоколы
 
 `VLESS` `VMess` `Trojan` `Shadowsocks` `SOCKS` `HTTP`
-
----
 
 ## Транспорты
 
@@ -44,19 +36,15 @@
 `HTTPUpgrade` `SplitHTTP` `xHTTP`  
 `QUIC` `HTTP/2` `MUX` `FakeDNS`
 
----
-
 ## Маршрутизация
 
 | Режим | Описание |
 |:-----|:---------|
-| 🇷🇺 **Умный РФ** | Российские сайты напрямую, остальное через VPN |
+| 🇷🇺 **Умный РФ** | Российские сайты напрямую, остальной нужный трафик через VPN |
 | 🌐 **Обход блокировок** | Заблокированные сервисы через VPN |
 | 💬 **Мессенджеры** | Telegram, WhatsApp, Discord и голосовые сервисы |
 | 🧲 **Торренты** | BitTorrent-трафик через VPN |
 | 🎮 **Игры** | Steam, Epic Games, Riot, Blizzard, EA, Ubisoft и другие |
-
----
 
 ## Поддержка
 
@@ -64,8 +52,6 @@
 |:---------|:-----------|
 | Android | 7.0+ (API 24) |
 | Архитектура | arm64-v8a |
-
----
 
 ## Технологии
 
