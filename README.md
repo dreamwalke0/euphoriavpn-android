@@ -2,51 +2,75 @@
 
 # Euphoria VPN
 
-Современный VPN-клиент для Android на базе **Xray-core**
+**Android VPN-клиент на базе Xray-core**
 
 </div>
 
 ---
 
-## 📱 Поддержка
+## Скачать
 
-| | |
-|:--|:--|
-| **Платформа** | Android |
-| **Минимальная версия** | Android 7.0 (API 24) |
-| **Target SDK** | API 36 |
-| **Архитектуры** | arm64-v8a, x86_64 |
+| Android |
+|:--------|
+| [Download APK](https://github.com/dreamwalke0/euphoriavpn-android/releases/download/Beta/Euphoria.VPN.1.0.1.apk) |
 
-## ⚡ Возможности
+---
+
+## Возможности
 
 - VPN через Android VpnService
-- Запуск Xray-core
-- Импорт подписок и отдельных конфигов
+- Работа на базе Xray-core
+- Импорт подписок и конфигов
+- Поддержка QR, URL, Base64 и JSON
 - Автообновление подписок
-- Пинг и автовыбор сервера
-- Split Tunnel
+- Автовыбор сервера
+- Пинг серверов
+- Избранное, история, статистика и логи
 - Kill Switch
+- Split Tunnel
 - Настройка DNS
-- Избранное, статистика и логи
 
-## 🔗 Поддерживаемые протоколы
+---
 
-`VLESS` • `VMess` • `Trojan` • `Shadowsocks` • `SOCKS` • `HTTP`
+## Протоколы
 
-## 🚀 Поддерживаемые транспорты
+`VLESS` `VMess` `Trojan` `Shadowsocks` `SOCKS` `HTTP`
 
-`Reality` • `TLS` • `TCP` • `WebSocket` • `gRPC` • `HTTPUpgrade` • `SplitHTTP` • `xHTTP` • `QUIC` • `HTTP/2` • `MUX` • `FakeDNS`
+---
 
-## 🌍 Режимы маршрутизации
+## Транспорты
+
+`Reality` `TLS` `TCP` `WebSocket` `gRPC`  
+`HTTPUpgrade` `SplitHTTP` `xHTTP`  
+`QUIC` `HTTP/2` `MUX` `FakeDNS`
+
+---
+
+## Маршрутизация
 
 | Режим | Описание |
-|:------|:---------|
-| **Умный РФ** | Российские сайты напрямую, остальной нужный трафик через VPN |
-| **Обход блокировок** | Популярные заблокированные сервисы через VPN |
-| **Мессенджеры** | Telegram, WhatsApp, Discord и голосовые сервисы |
-| **Торренты** | BitTorrent-трафик через VPN |
-| **Игры** | Steam, Epic Games, Riot, Blizzard, EA, Ubisoft, Roblox и другие |
+|:-----|:---------|
+| 🇷🇺 **Умный РФ** | Российские сайты напрямую, остальное через VPN |
+| 🌐 **Обход блокировок** | Заблокированные сервисы через VPN |
+| 💬 **Мессенджеры** | Telegram, WhatsApp, Discord и голосовые сервисы |
+| 🧲 **Торренты** | BitTorrent-трафик через VPN |
+| 🎮 **Игры** | Steam, Epic Games, Riot, Blizzard, EA, Ubisoft и другие |
 
-## 📦 Версия
+---
 
-**1.0.0 Beta**
+## Поддержка
+
+| Платформа | Требования |
+|:---------|:-----------|
+| Android | 7.0+ (API 24) |
+| Архитектура | arm64-v8a |
+
+---
+
+## Технологии
+
+`React Native`  
+`TypeScript`  
+`Kotlin`  
+`Android VpnService`  
+`Xray-core`
