@@ -8,7 +8,7 @@ Android VPN-клиент на базе Xray-core
 
 ## Скачать
 
-[Download APK](https://github.com/dreamwalke0/euphoriavpn-android/releases/download/Beta/Euphoria.VPN.1.0.1.apk)
+[Download APK](https://github.com/dreamwalke0/euphoriavpn-android/releases/download/Release/EuphoriaVPN-1.0.3-release.apk)
 
 ## Возможности
 
